@@ -1,0 +1,25 @@
+{
+  "name": "ecr",
+  "type": "component",
+  "version": "1.0.0",
+  "prompts": [
+    {
+      "type": "input",
+      "name": "module_name",
+      "message": "Module Name"
+    },
+    {
+      "type": "input",
+      "name": "ecr-name",
+      "message": "ECR Name"
+    },
+    {
+      "type": "number",
+      "name": "ecr-enable",
+      "message": "Conditional check to create ecr"
+    }
+  ],
+  "customTarget":{
+    "root_main.tf": "main.tf"
+  }
+}

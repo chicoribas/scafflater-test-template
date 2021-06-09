@@ -1,0 +1,20 @@
+{
+  "name": "_init",
+  "parameters": [
+    {
+      "type": "input",
+      "name": "domain",
+      "message": "What`s the domain/vs?"
+    },
+    {
+      "type": "input",
+      "name": "system",
+      "message": "What`s the system/project/product?"
+    },
+    {
+      "type": "input",
+      "name": "team",
+      "message": "What`s the team?"
+    }
+  ]
+}

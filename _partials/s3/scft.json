@@ -1,0 +1,27 @@
+{
+  "name": "s3",
+  "type": "component",
+  "version": "1.0.0",
+  "prompts": [
+    {
+      "type": "input",
+      "name": "name",
+      "message": "Component Name"
+    },
+    {
+      "type": "input",
+      "name": "bucket-name",
+      "message": "Bucket Name"
+    },
+    {
+      "type": "input",
+      "name": "AWS_DEFAULT_REGION",
+      "message": "Bucket Name",
+      "default": "us-east-1"
+    }
+  ],
+  "customTarget":{
+    "root_main.tf": "main.tf",
+    "root_variables.tf": "variables.tf"
+  }
+}
