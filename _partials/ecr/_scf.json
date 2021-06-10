@@ -1,6 +1,6 @@
 {
   "name": "ecr",
-  "type": "component",
+  "type": "partial",
   "version": "1.0.0",
   "parameters": [
     {
@@ -13,8 +13,5 @@
       "name": "ecr-name",
       "message": "ECR Name"
     }
-  ],
-  "customTarget":{
-    "root_main.tf": "main.tf"
-  }
+  ]
 }
