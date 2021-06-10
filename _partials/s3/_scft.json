@@ -2,7 +2,7 @@
   "name": "s3",
   "type": "component",
   "version": "1.0.0",
-  "prompts": [
+  "parameters": [
     {
       "type": "input",
       "name": "name",
