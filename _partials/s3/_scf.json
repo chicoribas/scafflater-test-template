@@ -16,7 +16,7 @@
     {
       "type": "input",
       "name": "AWS_DEFAULT_REGION",
-      "message": "Bucket Name",
+      "message": "Region",
       "default": "us-east-1"
     }
   ]
