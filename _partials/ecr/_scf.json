@@ -1,7 +1,6 @@
 {
   "name": "ecr",
   "type": "partial",
-  "version": "1.0.0",
   "parameters": [
     {
       "type": "input",

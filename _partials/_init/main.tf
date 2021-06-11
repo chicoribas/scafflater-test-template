@@ -13,5 +13,4 @@ provider "aws" {
     session_name = "terraform-development-access"
     external_id  = "Terraform"
   }
-} 
-
+}

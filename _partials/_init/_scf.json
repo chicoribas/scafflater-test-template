@@ -1,5 +1,6 @@
 {
   "name": "_init",
+  "type": "init",
   "parameters": [
     {
       "type": "input",

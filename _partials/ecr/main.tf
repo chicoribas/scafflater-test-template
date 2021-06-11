@@ -1,5 +1,3 @@
-
-
 module "{{parameters.name}}" {
   source              = "./{{parameters.name}}"
   ecr-name            = "{{parameters.ecr_name}}"
