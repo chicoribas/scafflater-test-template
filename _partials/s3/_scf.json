@@ -1,7 +1,6 @@
 {
   "name": "s3",
   "type": "partial",
-  "version": "1.0.0",
   "parameters": [
     {
       "type": "input",
