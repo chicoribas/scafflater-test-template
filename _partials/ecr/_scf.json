@@ -5,12 +5,14 @@
     {
       "type": "input",
       "name": "name",
-      "message": "Module Name"
+      "message": "Module Name",
+      "regex": "[a-z-]{3,}"
     },
     {
       "type": "input",
       "name": "ecr-name",
-      "message": "ECR Name"
+      "message": "ECR Name",
+      "regex": "[a-z-]{3,}"
     }
   ]
 }
