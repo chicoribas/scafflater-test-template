@@ -5,17 +5,20 @@
     {
       "type": "input",
       "name": "domain",
-      "message": "What`s the domain/vs?"
+      "message": "What`s the domain/vs?",
+      "regex": "[a-z-]{3,}"
     },
     {
       "type": "input",
       "name": "system",
-      "message": "What`s the system/project/product?"
+      "message": "What`s the system/project/product?",
+      "regex": "[a-z-]{3,}"
     },
     {
       "type": "input",
       "name": "team",
-      "message": "What`s the team?"
+      "message": "What`s the team?",
+      "regex": "[a-z-]{3,}"
     }
   ]
 }
