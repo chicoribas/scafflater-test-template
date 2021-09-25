@@ -1,0 +1,34 @@
+{
+  "template": {
+    "name": "scafflater-test-template",
+    "description": "Test template",
+    "version": "1.0.0"
+  },
+  "templates": [
+    {
+      "name": "scafflater-template",
+      "version": "0.0.1",
+      "source": {
+        "name": "github",
+        "key": "https://github.com/chicoribas/scafflater-template.git",
+        "options": {
+          "baseUrl": "https://github.com",
+          "baseUrlApi": "https://api.github.com"
+        }
+      },
+      "partials": [
+        {
+          "name": "add-partial",
+          "parameters": {
+            "name": "init",
+            "description": "This is the init"
+          }
+        }
+      ],
+      "parameters": {
+        "name": "scafflater-test-template",
+        "description": "Test template"
+      }
+    }
+  ]
+}

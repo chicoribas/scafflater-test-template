@@ -1,0 +1,8 @@
+{
+  "partial": {
+    "name": "init",
+    "description": "This is the init",
+    "config": {},
+    "parameters": []
+  }
+}

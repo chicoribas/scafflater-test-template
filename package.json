@@ -1,0 +1,27 @@
+{
+  "name": "scafflater-test-template",
+  "version": "1.0.0",
+  "description": "Test template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scafflater",
+    "templater",
+    "scaffold"
+  ],
+  "workspaces": [
+    "scf-hooks",
+    "scf-helpers"
+  ],
+  "license": "MIT",
+  "author": "chicoribas (chico.bribas@gmail.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicoribas/scafflater-test-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chicoribas/scafflater-test-template/issues"
+  },
+  "homepage": "https://github.com/chicoribas/scafflater-test-template#readme"
+}
