@@ -1,0 +1,8 @@
+{
+  "partial": {
+    "name": "new-partial",
+    "description": "This is a new partial",
+    "config": {},
+    "parameters": []
+  }
+}

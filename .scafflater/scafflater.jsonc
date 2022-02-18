@@ -23,6 +23,13 @@
             "name": "init",
             "description": "This is the init"
           }
+        },
+        {
+          "name": "add-partial",
+          "parameters": {
+            "name": "new-partial",
+            "description": "This is a new partial"
+          }
         }
       ],
       "parameters": {
